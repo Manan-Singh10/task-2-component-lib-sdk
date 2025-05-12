@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #070014;
+  --bg-light: #42008d;
+  --primary-gray: #e2e2e2;
+  --secondary-gray: #aaaaaa;
+  --input-bg: #ffffff10;
+  --input-border: #ffffff20;
+  --btn-primary: #ff815b;
+  --ticket-bg: #ffffff15;
+}
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+}
